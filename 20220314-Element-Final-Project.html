@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Element</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="20220314-Element-Final-Project-Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container_main">
+      <section id="home">
+        <div class="home_container">
+            <!-- test for Js-->
+            <div class="modal" id="modal">
+              <div class='modal__container'>
+                  <img class="modal__img" src="./02 Images/pop-up-image.png">
+                  <div class="modal__content">
+                      <h1 class="modal__title">Come visit us at the Melbourne Disability Expo at the Melbourne Exhibition Centre<span>April 14 – April 20</span>
+                      </h1>
+                              <!-- <button class="modal__button">Click here to participate</button> -->
+                  </div>
+                  <p id="close">X</p>
+                  <!-- <i id="close" class="fas fa-times"></i> -->
+              </div>
+            </div>
+           <!--TEST COMPLETE-->
+           <script src="20220314-Element-Final-Project-javascript.js" type="text/javascript"></script>
+          <div class="home_header">
+            <div class="brand-name">
+              <h1>Element</h1>
+              <p>Support services</p>
+            </div>
+            <div>
+              <ul class="nav-bar">
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+                <button class="primary_btn">Get Started</button>
+              </ul>
+            </div>
+          </div>
+          <div class="home_content">
+            <h1>
+              Connect with reliable NDIS support workers in your community.
+            </h1>
+            <button class="primary_btn">I need support</button>
+            <button class="primary_btn">I want to provide support</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sticky Button -->
+      <a href="#" class="float" onclick="div_show()">
+        <i class="fa fa-question my-float"></i>
+        </a>
+
+        <section id="about">
+          <div class="about_container">
+            <h4>Support on your own terms</h4>
+            <p>
+              We believe that every client and their family is entitled to emotional, psychological and practical support. We are here to help build a support team best suited to pursue your passions, achieve your goals, and improve your quality of life.
+            </p>
+          </div>
+        </section>
+
+      <section id="services">
+          <div class="services_header"><h2>How we can help</h2></div>
+          <div class="cards">
+              <div class="feature">
+                  <img src="./02 Images/service-personal-care.png" alt="">
+                  <h6>Personal Care</h6>
+                  <p>Personal care includes showering, toileting and mealtime assistance on a day-to-day basis</p>
+              </div>
+              <div class="feature">
+                <img src="./02 Images/service-inhome-care.png" alt="">
+                <h6>In-Home Care</h6>
+                <p>We can help with morning and evening routines, medical prompts, and meal preparation</p>
+              </div>
+              <div class="feature">
+                <img src="./02 Images/service-specialised-support.png" alt="">
+                <h6>Specialised Support</h6>
+                <p>Everyone is different, and so are their support needs, we can help with complex personal requirements</p>
+              </div>
+              <div class="feature">
+                <img src="./02 Images/service-workshops.png" alt="">
+                <h6>Workshops</h6>
+                <p>Need to have some fun? 
+                  Get moving or join in our our monthly art therapy or dance workshops</p>
+              </div>
+          </div>
+      </section>
+
+      <section id="team">
+        <div class="team_header"><h2>Join our community of <br> independent support workers</h2></div>
+        <div class="team_cards">
+            <div class="member_card">
+                <div class="member_card_img">
+                    <img src="./02 Images/profile_img.jpeg" alt="">
+                </div>
+                <div>
+                    <h6>Andrew James</h6>
+                    <span>Melbourne, VIC</span>
+                </div>
+                <div><p>Hi I'm John Smith and I've been in Melbourne for 6 years now. Making connections and building relationships is what I live for. I am a dad of 2...</p></div>
+            </div>
+            <div class="member_card">
+                <div class="member_card_img">
+                    <img src="./02 Images/christian-buehner-zYD6ou1Qj10-unsplash.jpeg" alt="">
+                </div>
+                <div>
+                    <h6>Harry Price</h6>
+                    <span>Adelaide, SA</span>
+                </div>
+                <div><p>I have been a support worker for many years and enjoy supporting people to continue to stay active and engage in society. I also love to cook and...</p></div>
+            </div>
+            <div class="member_card">
+                <div class="member_card_img">
+                    <img src="./02 Images/romina-ahmadpour-X5Q14ZxkwsU-unsplash.jpeg" alt="">
+                </div>
+                <div>
+                    <h6>Julie Knowles</h6>
+                    <span>New Castle, NSW</span>
+                </div>
+                <div><p>My passion is art and I love experimenting! I've been a support worker since 2015, I'm passionate about advocating for the people I support and...</p></div>
+            </div>
+        </div>
+      </section>
+
+      <section id="picture"></section>
+
+      <section id="contact">
+          <div class="contact-top_container">
+              <div>
+                  <h1>Say hello or <br> give us a call</h1>
+              </div>
+              <div>
+                  <ul>
+                      <li>&#8594; info@elementsupportservices.com.au</li>
+                      <li>&#8594; 03 9123 4567</li>
+                  </ul>
+              </div>                           
+              <div>
+                  <img src="./02 Images/1-facebook-icon.png" alt="">
+                  <img src="./02 Images/2-twitter-icon.png" alt="">
+                  <img src="./02 Images/3-linkedin-icon.png" alt="">
+              </div>
+          </div>
+          <div class="contact-bottom_container">
+              <div>© Copyright 2022 Element Support Services</div>
+              <div>
+                  <ul>
+                      <li>Terms of Use</li>
+                      <li>Privacy Policy</li>
+                      <li>Accessibility</li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+    </div>
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Login</h1>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+  </body>
+</html>
